@@ -2,7 +2,7 @@
 import './App.css';
 import Cardinfo from './component/Cardinfo';
 import Main from './component/Main';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <Router>
