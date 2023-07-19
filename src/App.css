@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Poppins:wght@200&family=Roboto+Slab&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  /* background: rgb(243, 232, 189); */
+}
+
+body {
+  background: rgb(243, 232, 189);
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  background: rgb(243, 232, 189);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Header {
+  width: 80%;
+  text-align: center;
+  margin: 2%;
+}
+
+.Header-content {
+  width: 100%;
+
+}
+
+.Header-content h1 {
+  margin: 1%;
+}
+
+.Header-content p {
+  padding: 10px;
+}
+
+.Search {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+}
+
+.Input input {
+  width: 450px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  margin: 1%;
+}
+
+.Card-container {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Card-container img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.Card-container h3 {
+  width: 80%;
+  font-size: 15px;
+  text-align: center;
+  color: wheat;
+  margin: 3%;
+}
+
+.Alphabet-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alpha {
+  width: 90%;
+  display: flex;
+  margin: 1%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.alpha-item {
+  width: 50px;
+  height: 30px;
+  background-color: black;
+  color: wheat;
+  margin: 1%;
+  font-size: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  background: rgb(243, 232, 189);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content img {
+  width: 100%;
+  height: 90vh;
+  object-fit: contain;
+  margin: 2%;
+}
+
+.content h1 {
+  margin: 1%;
+  color: rgb(0, 0, 0);
+}
+
+.more-info {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.ingrediants {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.ingrediants h3 {
+  margin: 2%;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+.instruction {
+  width: 50%;
+  margin: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.instruction h1 {
+  margin: 2%;
+}
+
+.instruction p {
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+}
+
+iframe {
+  width: 585px;
+  height: 60vh;
+  margin: 5%;
+}
+
+@media only screen and (max-width: 700px) {
+  .cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 1%;
+  }
+
+  .Card-container {
+    width: 250px;
+    height: 250px;
+  }
+
+  .alpha {
+    width: 100%;
+  }
+
+  .alpha-item {
+    width: 10%;
+    height: 30px;
+  }
+}
