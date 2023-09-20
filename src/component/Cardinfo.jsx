@@ -25,7 +25,7 @@ function Cardinfo() {
           <div className="content">
             <img src={item.strMealThumb} />
             <h1>Area : {item.strArea}</h1>
-            <h1>Caregory : {item.strCategory}</h1>
+            <h1>Category : {item.strCategory}</h1>
             <div className="more-info">
               <div className="ingrediants">
                 <h1>Ingredients</h1>
